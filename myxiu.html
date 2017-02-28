@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<!-- SEO  -->
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<!-- 苹果专用 -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- 简单移动端适配 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<!-- 图标 -->
+		<link rel="shortcut icon" href="">
+
+		<title>我的秀</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<style type="text/css">
+			html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				
+			}
+			header{
+				height: 0.89rem;
+				width: 100%;
+				position: fixed;
+			    left: 0px;
+			    top:0px; 
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			.hTop{
+				
+				width: 100%;
+				height: 0.89rem;
+				
+				background-color: #e4366b;
+				color: #fff;
+				font-size:0.4rem ;
+				font-weight: bold;
+				
+				line-height: 0.89rem;
+				text-align: center;
+				font-family: "微软雅黑";
+			}
+			.s1{
+			    display: inline-block;
+			    width: 0.89rem;
+			    padding-top: 0.24rem;
+			    padding-left: 0.2rem;
+			    font-size: 0.4rem;
+			    font-weight: bold;
+			    color: #fff;
+				position: absolute;
+				left:0 ;
+				height:0 ;
+			}
+			section{
+				/*background-color: palegoldenrod;*/
+				width: 100%;
+				position: absolute;
+				top: 0.89rem;
+			    bottom: 0.95rem;
+			    left:0px;
+			    font-size: 0.35rem;
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			section>div{
+				position: absolute;
+			}
+			.touxiang{
+				position: absolute;
+				left:0.43rem;
+				top:0.73rem;
+				width: 1.66rem;
+				height:1.66rem;
+				
+			}
+			.nameBox{
+				width:2.95rem ;
+				height:1.32rem;
+				left: 2.45rem;
+				top:0.99rem;
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			.name{
+				margin-top: 0px;
+				padding-top: 0px;
+				color: #222423;
+				font-weight: bold;
+			}
+			.name_sp{
+				margin-left: 0.15rem;
+			}
+			.nameBox a{
+				padding: 0.17rem 0.3rem;
+				color: #fff;
+				font-weight: bold;
+				background-color: #E4366B;
+				text-decoration: none;
+				border-radius: 7px;
+				
+			}
+			a:hover,a:focus{
+				
+				text-decoration: none;
+				
+			}
+			.container_uu{
+				position: absolute;
+				width:5.58rem ;
+				height:3.63rem;
+				left: 0.43rem;
+				top:3.34rem;
+				margin: 0;
+				padding: 0;
+				border-radius: 7px;
+				box-shadow: 0px 0px 1px #000000;
+			}
+			.container_li{
+				list-style: none;
+				line-height: 0.89rem;
+				padding-left: 10px;
+				
+				border-bottom: 1px solid #dedede;
+			}
+			.container_uu li:last-child{
+				border-bottom: 0px solid #dedede;
+			}
+			.container_li a{
+				color: #222423;
+				font-weight: bold;
+				font-size: 0.35rem;
+				text-decoration: none;
+				  
+			}
+			.container_li span{
+				float: right;
+				color: gray;
+				padding-right: 8px;
+				font-weight: bold;
+			}
+			/*尾部*/
+			footer{
+				height: 0.95rem;
+				width: 100%;
+				position: fixed;
+			    bottom: 0px;
+			    left:0px; 
+			    
+				box-shadow: 0px 0px 1px #000000;
+				background-color:#484850;
+			}
+			.footer_a{
+				float: left;
+				display: inline-block;
+				width: 20%;
+				height: 99%;
+				border-top: 4px solid #484850;
+				text-decoration: none;
+				color: #fff;
+				text-align: center;
+				font-size: 0.24rem;
+				font-weight: bold;
+			}
+			footer a:nth-child(4){
+				border-top: 4px solid #E4366B;
+			}
+			.footer_sp{
+				display: block;
+				width: 100%;
+				height: 0.50rem;
+				line-height: 0.5rem;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<span class="s1 iconfont">&#xe619;</span>
+			<div class="hTop">
+				我的秀
+			</div>
+		</header>
+		<section class="container">
+			
+			   <img class="touxiang" src="img/ren.png"/>
+			   
+			   <div class="nameBox">
+				   	<p class="name">昵称&ensp;:<span class="name_sp">未知</span></p>
+				   	<a href="denglu.html" style="margin-right: 5px;">登录</a>
+				   	<a href="zhuce.html">注册</a>
+			   </div>
+			   
+			   <ul class="container_uu">
+			   		<li class="container_li">
+			   			<a href="#">我的订单</a><span>></span>
+			   		</li>
+			   		<li class="container_li">
+			   			<a href="#">我的优惠券</a><span>></span>
+			   		</li>
+			   		<li class="container_li">
+			   			<a href="#">浏览记录</a><span>></span>
+			   		</li>
+			   		<li class="container_li">
+			   			<a href="#">我的收藏</a><span>></span>
+			   		</li>
+			   </ul>
+		</section>
+		<footer>
+			        <a class="footer_a" href="shouye.html" >
+						<span class="footer_sp iconfont">&#xe644;</span>
+						首页
+					</a>
+				    <a class="footer_a" href="fenlei.html">
+						<span class="footer_sp iconfont">&#xe692;</span>
+						分类
+					</a>
+				
+					<a class="footer_a" href="cart.html">
+						<span class="footer_sp iconfont">&#xe61b;</span>
+						购物车
+					</a>
+				
+					<a class="footer_a" href="myxiu.html">
+						<span class="footer_sp iconfont">&#xe646;</span>
+						我的秀
+					</a>
+					<a class="footer_a" href="gengduo.html">
+						<span class="footer_sp iconfont">&#xe651;</span>
+						更多
+					</a>
+		
+		</footer>
+		
+
+		<script src="js/jquery-1.11.0.js" type="text/javascript"></script>
+		<script src="js/rem.js" type="text/javascript"></script>
+		<script src="js/swiper-3.4.0.jquery.min.js" type="text/javascript"></script>
+		<script src="js/swiper.animate1.0.2.min.js" type="text/javascript"></script>
+		<script src="js/iscroll.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		   $(".footer_a").on("click",function(){
+		   	  $(".footer_a").css("border-top","4px solid #484850");
+		   	   $(this).css("border-top","4px solid #E4366B");
+		   })
+		   
+		if(localStorage.getItem("loginDataJSON")){
+//			alert("登陆成功")
+				var tmpuser=localStorage.getItem("loginDataJSON");
+				tmpuser=JSON.parse(tmpuser);
+				
+				$(".name_sp").html(tmpuser.userID);
+				 $(".touxiang").attr('src','img/tou1.jpg').css("border-radius","10px");
+				 $(".nameBox a").css("display","none");
+			}
+			
+		</script>
+	</body>
+
+</html>

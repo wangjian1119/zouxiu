@@ -1,0 +1,183 @@
+html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				
+			}
+			
+			header{
+				height: 0.89rem;
+				width: 100%;
+				position: fixed;
+			    left: 0px;
+			    top:0px; 
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			.hTop{
+				
+				width: 100%;
+				height: 0.89rem;
+				
+				background-color: #e4366b;
+				color: #fff;
+				font-size:0.4rem ;
+				font-weight: bold;
+				
+				line-height: 0.89rem;
+				text-align: center;
+				font-family: "微软雅黑";
+			}
+			.s1{
+			    display: inline-block;
+			    width: 0.89rem;
+			    padding-top: 0.24rem;
+			    padding-left: 0.2rem;
+			    font-size: 0.4rem;
+			    font-weight: bold;
+			    color: #fff;
+				position: absolute;
+				left:0 ;
+				height:0 ;
+			}
+			.denglv{
+				padding: 0.15rem 0.24rem;
+				position: absolute;
+				right: 0.24rem;
+				top:0.15rem;
+				border-radius: 5px;
+				background:#e4366b;
+				font-size: 0.23rem;
+				color: #fff;
+				box-shadow: 1px 1px 6px #fff;
+				background: linear-gradient(180deg,rgba(247, 85, 129, 0.8),rgba(216,22,83,1));
+                /*box-shadow: inset -1px -1px 1px 0px lightgrey, 0px -1px 1px 0px lightgrey;*/
+
+			}
+			.container{
+				background-color: #f7f7f7;
+				width: 100%;
+				
+				position: absolute;
+				top: 0.89rem;
+			    bottom: 0px;
+			    left:0px;
+			    font-size: 0.39rem;
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			
+			
+			.dvBox{
+				width:100%;
+				height:90%;
+				box-shadow: 0px 0px 1px #000000;
+			}
+			.dv{
+				width: 100%;
+				height: 100%;
+				display: none;
+				overflow: auto;
+			}
+			.goodImg{
+				margin: 0.7rem 0.95rem;
+                width: 70%;
+               height: 4.90rem;
+			}
+			.box{
+				width: 82%;
+			    height: 1rem;
+			    line-height: 1rem;
+			    margin-top: 0px;
+			    background-color: #e6356b;
+			    margin: 0px auto;
+			    margin-top: -30px;
+			    margin-bottom: 30px;
+			    text-align: center;
+			    padding: 0 10px;
+			    color: #ff;
+			    color: #fff;
+			    font-weight: bolder;
+			    border-radius: 5px;
+			}
+			.goodmoney{
+				float: left;
+   			    margin-right: 30px;
+			}
+			.goodName{
+				width: 3.5rem;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			}
+			.neirong{
+				color: #52525a;
+				width: 80%;
+			    margin: 0 auto;
+			    /*background-color: #70db75;*/
+			    height: 0.5rem;
+			    line-height: 0.5rem;
+			    padding: 0px 10px;
+			    font-size: 0.28rem;
+			}
+			.shichangjia{
+				float: left;
+				margin-right: 50px;
+				
+			}
+			.goodDiscount{
+				
+			}
+			.gooodNum{
+				float: right;
+			}
+			.dv2{
+				
+			}
+			.goodImg2{
+				    width: 100%;
+                    height: 70%;
+			}
+			.cusSwiper1{
+				width: 100%;
+				height: 9.5rem;
+			}
+			.swiper-wrapper,.banner_dv{
+				width: 100%;
+				height: 9.5rem;
+			}
+			.banner{
+				width: 100%;
+				height: 9.5rem;
+			}
+			.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+			    margin: 10px 5px;
+			    background-color: #E4366B;
+			}
+			.btnBox{
+				position: fixed;
+				bottom: 0px;
+				left:0px;
+				width:100%;
+				height:10%;
+			    color: #fff;
+			    line-height: 100%;
+			    background-color: #5b5a60;
+				box-shadow: 0px 0px 1px #000000;
+				z-index: 999;
+			}
+			.btn{
+				width:33.29%;
+				float: left;
+				height: 100%;
+			    line-height: 1rem;
+			    text-align: center;
+			   
+				box-sizing: border-box;
+			}
+			.btnBox .btn:first-child{
+				 border-top: 4px solid #E4366B;
+				 box-shadow: 1px 1px 5px #333;
+			}
+			
+			

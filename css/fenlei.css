@@ -1,0 +1,224 @@
+
+			html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				
+			}
+			
+			header{
+				height: 0.89rem;
+				width: 100%;
+				position: fixed;
+			    left: 0px;
+			    top:0px; 
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			.hTop{
+				
+				width: 100%;
+				height: 0.89rem;
+				
+				background-color: #e4366b;
+				color: #fff;
+				font-size:0.4rem ;
+				font-weight: bold;
+				
+				line-height: 0.89rem;
+				text-align: center;
+				font-family: "微软雅黑";
+			}
+			.s1{
+			    display: inline-block;
+			    width: 0.89rem;
+			    padding-top: 0.24rem;
+			    padding-left: 0.2rem;
+			    font-size: 0.4rem;
+			    font-weight: bold;
+			    color: #fff;
+				position: absolute;
+				left:0 ;
+				height:0 ;
+			}
+			.denglv{
+				padding: 0.15rem 0.24rem;
+				position: absolute;
+				right: 0.24rem;
+				top:0.15rem;
+				border-radius: 5px;
+				background:#e4366b;
+				font-size: 0.23rem;
+				color: #fff;
+				box-shadow: 1px 1px 6px #fff;
+			}
+			section{
+				background-color: #f7f7f7;
+				width: 100%;
+				position: absolute;
+				top: 0.89rem;
+			    bottom: 0.95rem;
+			    left:0px;
+			    font-size: 0.39rem;
+				/*box-shadow: 0px 0px 1px #000000;*/
+			}
+			section>div{
+				position: absolute;
+			}
+			.top_con{
+				
+				width: 100%;
+				height: 0.7rem;
+				opacity: 0.6;
+				background-color: #484850;
+			}
+			#wrapper{
+				/*万能固定模式！*/
+				position:absolute;
+				top:0px;
+				bottom: 0px;
+				left:0px;
+				width: 100%;
+				height: 100%;
+				/*background-color: yellow;*/
+				overflow: hidden;
+			}
+			
+			#scroller{
+				position: absolute;
+				width:455px;
+				
+			}
+			#scroller ul{
+				list-style: none;
+				width: 100%;
+				height: 0.7rem;
+				margin: 0;
+				padding: 0;
+				
+			}
+			#scroller li{
+				float: left;
+				width: 0.7rem;
+				height: 100%;
+			}
+			.font_li{
+				width: 0.7rem;
+				height: 100%;
+				float: left;
+				text-align: center;
+				line-height: 0.7rem;
+			}
+			.font{
+				width: 100%;
+				height: 100%;
+				color: #000;
+			}
+			
+			.bottom_con{
+				width: 100%;
+				position: absolute;
+				left: 0px;
+				top:0.7rem;
+				height: 100%;
+				overflow: auto;
+			}
+			#wrapper1{
+				/*万能固定模式！*/
+				position:absolute;
+				top:0px;
+				bottom: 0px;
+				left:0px;
+				width: 100%;
+				overflow: hidden;
+			}
+			
+			#scroller1{
+				position: absolute;
+				width: 100%;
+				height: 1105px;
+			}
+			#scroller1 ul{
+				list-style: none;
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				/*padding: 0;*/
+				padding: 0.36rem;
+			}
+			 #scroller1 .goodli{
+				float: left;
+				
+			}
+			.goodBox{
+				float: left;
+			    width: 2.67rem;
+			    height: 3.95rem;
+			    font-size: 0.23rem;
+			    color: #333;
+			    /* margin-bottom: 0.2rem; */
+			    margin-right: 0.3rem;
+			}
+			.goodImg{
+				width:100%;
+				height:2.69rem;
+			}
+			.goodName{
+				margin: 5px 0;
+			    padding: 0;
+			    width: 100%;
+			    text-align: center;
+			    height: 0.37rem;
+			    text-align: center;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			}
+			.goodmoney{
+				color: #E4366B;
+			    font-size: 0.29rem;
+			    float: left;
+			    font-weight: bold;
+			}
+			.goodPrice{
+				color: grey;
+				text-decoration: line-through;
+				float: right;
+				font-size: 0.26rem;
+			}
+			/*尾部*/
+			footer{
+				height: 0.95rem;
+				width: 100%;
+				position: fixed;
+			    bottom: 0px;
+			    left:0px; 
+			    
+				box-shadow: 0px 0px 1px #000000;
+				background-color:#484850;
+			}
+			.footer_a{
+				float: left;
+				display: inline-block;
+				width: 20%;
+				height: 99%;
+				border-top: 4px solid #484850;
+				text-decoration: none;
+				color: #fff;
+				text-align: center;
+				font-size: 0.24rem;
+				font-weight: bold;
+			}
+			footer a:nth-child(2){
+				border-top: 4px solid #E4366B;
+			}
+			.footer_sp{
+				display: block;
+				width: 100%;
+				height: 0.50rem;
+				line-height: 0.5rem;
+				text-align: center;
+			}
+			
+	

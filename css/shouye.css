@@ -1,0 +1,246 @@
+			html,body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				border: 0;
+			}
+			header{
+				height: 1.78rem;
+				width: 100%;
+				position: fixed;
+			    left: 0px;
+			    top:0px; 
+			}
+			.loading1,.loading2{
+				width: 100%;
+				width: 100%;
+			}
+			.hTop{
+				
+				width: 100%;
+				height: 0.85rem;
+				
+				background-color: #e4366b;
+				color: #fff;
+				font-size:0.4rem ;
+				font-weight: bold;
+				
+				line-height: 0.85rem;
+				text-align: center;
+				font-family: "微软雅黑";
+			}
+			.hBootom{
+				float: left;
+				width: 100%;
+				height: 0.90rem;
+				
+				padding:0px 0.2rem;
+				background-color: #52525a;
+				
+				line-height: 0.90rem;
+				
+				text-align: center;
+				
+			}
+			.neirong{
+				width: 5.91rem;
+				height: 0.57rem;
+				background-color: #fff;
+				border-radius: 10px;
+				line-height: 0.57rem;
+				margin-top: 9px;
+			}
+			.neirong .s1{
+				float: left;
+				display: inline-block;
+				width:0.51rem;
+				height:0.57rem;
+				
+				line-height:0.57rem;
+				text-align: center;
+				
+			}
+			#ipt{
+				float: left;
+				width: 80%;
+				height: 80%;
+				border: 0px;
+				margin-top: 3px;
+				margin-left: 2px;
+				outline: none;
+			}
+			
+			section{
+				width: 100%;
+				position: absolute;
+				top: 1.75rem;
+			    bottom: 0.95rem;
+			    left:0px;
+			}
+			.cusSwiper1{
+				width: 100%;
+				height: 3.58rem;
+				
+			}
+			#cusSwiper1 img{
+				
+				width: 100%;
+				height: 100%;
+				
+			}
+			.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+			    margin: -10px 5px;
+			    background-color: #E4366B;
+			}
+			.banner{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			#wrapper{
+				/*万能固定模式！*/
+				position:absolute;
+				top:0rem;
+				bottom: 0px;
+				left:0px;
+				width: 100%;
+				overflow: hidden;
+			}
+			#scroller{
+				position: absolute;
+				width: 100%;
+			}
+			#scroller ul{
+				list-style: none;
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				margin-top: -10px;
+			}
+			
+			.goodBox{
+				    height: 2rem;
+				    width: 100%;
+				    margin-bottom: 0px;
+				    padding: 0rem 0.15rem;
+				    font-size: 0.22rem;
+				    color: #333;
+				    padding-top: 0.28rem;
+				    border-bottom: 1px solid rgba(158, 158, 158, 0.19);
+				
+			}
+			.goodImg{
+				width: 1.72rem;
+				height: 1.72rem;
+				float: left;
+				
+			}
+			.goodBtn:hover{
+				color: #E4366B;
+				background-color: silver;
+			}
+			.goodDiv{
+				width: 3.8rem;
+				float: left;
+				padding:2px 15px;
+				/*background-color: palegoldenrod;*/
+			}
+			.goodDiv span{
+				padding: 2px 8px;
+				display: inline-block;
+				
+			}
+			.goodName{
+				padding: 0;
+				margin: 0;
+				height: 0.65rem;
+			font-size: 0.26rem;
+			}
+			
+			.goodmoney{
+				font-size: 0.39rem;
+			    color: #E4366B;
+			    margin-right: 0px;
+				display: inline-block;
+			}
+			.goodPrice{
+				color: grey;
+				font-size: 0.16rem;
+				display: inline-block;
+				text-decoration:line-through;
+				
+			}
+			.goodDiv .goodDiscount{
+				display: block;
+				font-size: 0.16rem;
+			}
+			.goodDiv .goodBtn{
+				padding: 8px 20px;
+				background-color: #E4366B;
+				color: #fff;
+				float: right;
+				border-radius: 5px;
+				margin-top: -19px;
+			}
+			.btn_dv{
+				width: 100%;
+			    height: 100%;
+			    text-align: center;
+			    line-height: 100%;
+			    background-color: #303028;
+			    z-index: 1;
+			    opacity: 0.9;
+			    color: #fff;
+			}
+			.go_font{
+				   margin-top: auto;
+				   font-size: 0.5rem;
+				   padding-top: 2rem;
+			}
+			
+			.go_btn{
+				padding: 15px 39px;
+			    background-color: palevioletred;
+			    
+			    color: #fff;
+			    border: 0px;
+			    margin-top: 10px;
+			    border-radius: 8px;
+			    font-size: 0.3rem;
+			}
+			/*尾部*/
+			footer{
+				height: 0.95rem;
+				width: 100%;
+				position: fixed;
+			    bottom: 0px;
+			    left:0px; 
+			    
+				box-shadow: 0px 0px 1px #000000;
+				background-color:#484850;
+			}
+			.footer_a{
+				float: left;
+				display: inline-block;
+				width: 20%;
+				height: 99%;
+				border-top: 4px solid #484850;
+				text-decoration: none;
+				color: #fff;
+				text-align: center;
+				font-size: 0.24rem;
+				font-weight: bold;
+			}
+			footer a:first-child{
+				border-top: 4px solid #E4366B;
+			}
+			.footer_sp{
+				display: block;
+				width: 100%;
+				height: 0.50rem;
+				line-height: 0.5rem;
+				text-align: center;
+			}

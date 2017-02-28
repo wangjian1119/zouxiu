@@ -1,0 +1,140 @@
+{
+  "shouye.html": {
+    "resources": [
+      "js/swiper.animate1.0.2.min.js",
+      "css/animate.css",
+      "js/swiper.js",
+      "js/zepto.js",
+      "js/touch.js",
+      "img/4.gif",
+      "js/rem.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "css/swiper-3.4.0.min.css",
+      "js/jquery-1.11.0.js",
+      "js/iscroll.js",
+      "iconfont/iconfont.woff",
+      "js/shouye.js",
+      "css/shouye.css",
+      "iconfont/iconfont.css",
+      "fenlei.html",
+      "shangpin.html"
+    ],
+    "refer": []
+  },
+  "myxiu.html": {
+    "resources": [
+      "js/swiper.animate1.0.2.min.js",
+      "css/swiper-3.4.0.min.css",
+      "js/jquery-1.11.0.js",
+      "js/iscroll.js",
+      "css/animate.css",
+      "img/ren.png",
+      "js/rem.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "iconfont/iconfont.css",
+      "gengduo.html",
+      "cart.html",
+      "denglu.html",
+      "img/tou1.jpg"
+    ],
+    "refer": []
+  },
+  "cart.html": {
+    "resources": [
+      "myxiu.html",
+      "js/swiper.animate1.0.2.min.js",
+      "css/swiper-3.4.0.min.css",
+      "js/jquery-1.11.0.js",
+      "js/iscroll.js",
+      "css/animate.css",
+      "css/cart.css",
+      "js/rem.js",
+      "js/cart.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "iconfont/iconfont.css",
+      "fenlei.html",
+      "shouye.html"
+    ],
+    "refer": [
+      "myxiu.html"
+    ]
+  },
+  "fenlei.html": {
+    "resources": [
+      "css/fenlei.css",
+      "js/swiper.animate1.0.2.min.js",
+      "css/swiper-3.4.0.min.css",
+      "js/feilei.js",
+      "js/jquery-1.11.0.js",
+      "cart.html",
+      "js/iscroll.js",
+      "css/animate.css",
+      "js/rem.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "iconfont/iconfont.css",
+      "shouye.html",
+      "myxiu.html",
+      "img/4.gif"
+    ],
+    "refer": [
+      "cart.html"
+    ]
+  },
+  "gengduo.html": {
+    "resources": [
+      "myxiu.html"
+    ],
+    "refer": [
+      "myxiu.html"
+    ]
+  },
+  "shangpin.html": {
+    "resources": [
+      "js/shangpin.js",
+      "js/swiper.animate1.0.2.min.js",
+      "js/jquery-1.11.0.js",
+      "js/iscroll.js",
+      "css/shangpin.css",
+      "js/rem.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "shouye.html"
+    ],
+    "refer": []
+  },
+  "start.html": {
+    "resources": [
+      "img/logo4.png",
+      "img/p2.png",
+      "img/f.png",
+      "js/swiper.animate1.0.2.min.js",
+      "img/logo3.png",
+      "img/btn.png",
+      "css/animate.css",
+      "img/d.png",
+      "js/rem.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "img/logo1.png",
+      "img/logo2.png",
+      "css/swiper-3.4.0.min.css",
+      "js/jquery-1.11.0.js",
+      "img/b.png",
+      "img/logo.png",
+      "img/sss.png",
+      "shouye.html"
+    ],
+    "refer": []
+  },
+  "denglu.html": {
+    "resources": [
+      "js/swiper.animate1.0.2.min.js",
+      "js/denglu.js",
+      "js/jquery-1.11.0.js",
+      "js/iscroll.js",
+      "js/rem.js",
+      "js/swiper-3.4.0.jquery.min.js",
+      "iconfont/iconfont.css",
+      "myxiu.html"
+    ],
+    "refer": []
+  }
+}
